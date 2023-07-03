@@ -17,7 +17,6 @@ $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 PRODUCT_NAME := lineage_davinci
 PRODUCT_DEVICE := davinci
 PRODUCT_BRAND := Xiaomi
-PRODUCT_MODEL := Mi 9T
 PRODUCT_MANUFACTURER := Xiaomi
 
 # ALPHADROID
