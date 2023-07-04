@@ -38,6 +38,7 @@ using android::base::GetProperty;
 std::vector<std::string> ro_props_default_source_order = {
     "",
     "odm.",
+    "product.",
     "system.",
     "system_ext.",
     "vendor.",
@@ -90,11 +91,13 @@ void vendor_load_properties() {
         fingerprint = "Xiaomi/davinci/davinci:11/RKQ1.200826.002/V12.1.4.0.RFJMIXM:user/release-keys";
         description = "davinci-user 11 RKQ1.200826.002 V12.1.4.0.RFJMIXM release-keys";
         mod_device = "davinci_global";
+        property_override("ro.boot.product.hardware.sku", "davinci");
     } else if (region == "CN") {
         model = "Redmi K20";
         device = "davinci";
         fingerprint = "Xiaomi/davinci/davinci:11/RKQ1.200826.002/V12.5.2.0.RFJCNXM:user/release-keys";
         description = "davinci-user 11 RKQ1.200826.002 V12.5.2.0.RFJCNXM release-keys";
+        property_override("ro.boot.product.hardware.sku", "davinci");
     } else if (region == "INDIA") {
         model = "Redmi K20";
         device = "davinciin";
