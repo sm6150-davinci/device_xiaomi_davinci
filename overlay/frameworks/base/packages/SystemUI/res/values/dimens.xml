@@ -18,4 +18,8 @@
 <resources>
     <!-- Recognizing fingerprint animation -->
     <dimen name="udfps_animation_offset">40dp</dimen>
+    
+    <!-- Margin on the left side of the carrier text on Keyguard -->
+    <dimen name="keyguard_carrier_text_margin">10dp</dimen>
+    
 </resources>
