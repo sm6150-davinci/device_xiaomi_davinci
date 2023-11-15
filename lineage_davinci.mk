@@ -20,6 +20,10 @@ PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := Mi 9T
 PRODUCT_MANUFACTURER := Xiaomi
 
+#Alphadroid Bringup
+WITH_GMS := true
+
+
 PRODUCT_SYSTEM_NAME := davinci
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
