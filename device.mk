@@ -114,9 +114,7 @@ PRODUCT_SOONG_NAMESPACES += \
 
 # WiFi
 PRODUCT_PACKAGES += \
-    WifiOverlayCN \
-    WifiOverlayGLOBAL \
-    WifiOverlayINDIA
+    DavinciWifiOverlay
 
 # Call the proprietary setup
 $(call inherit-product, vendor/xiaomi/davinci/davinci-vendor.mk)
