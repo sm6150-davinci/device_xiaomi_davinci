@@ -21,6 +21,7 @@ PRODUCT_MODEL := Mi 9T
 PRODUCT_MANUFACTURER := Xiaomi
 
 #Alphadroid Bringup
+ALPHA_BUILD_TYPE := Official
 ALPHA_MAINTAINER := Rumais
 WITH_GMS := true
 TARGET_HAS_UDFPS := true
