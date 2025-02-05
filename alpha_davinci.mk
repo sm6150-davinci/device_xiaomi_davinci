@@ -13,13 +13,22 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, device/xiaomi/davinci/device.mk)
 
 # Inherit some common Lineage stuff.
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+$(call inherit-product, vendor/alpha/config/common_full_phone.mk)
 
-PRODUCT_NAME := lineage_davinci
+PRODUCT_NAME := alpha_davinci
 PRODUCT_DEVICE := davinci
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := Mi 9T
 PRODUCT_MANUFACTURER := Xiaomi
+
+# AlphaDroid
+TARGET_HAS_UDFPS := true
+TARGET_ENABLE_BLUR := true
+TARGET_EXCLUDES_AUDIOFX := true
+TARGET_SUPPORTS_CALL_RECORDING := true
+TARGET_INCLUDE_MATLOG := true
+ALPHA_BUILD_TYPE := Official
+ALPHA_MAINTAINER := Rumais
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
     BuildDesc="davinci-user 11 RKQ1.200826.002 V12.1.4.0.RFJMIXM release-keys" \
