@@ -21,4 +21,7 @@
 
     <!-- Recognizing fingerprint animation -->
     <dimen name="udfps_animation_offset">38dp</dimen>
+
+    <!-- Udfps animation size -->
+    <dimen name="udfps_animation_size">260dp</dimen>
 </resources>
