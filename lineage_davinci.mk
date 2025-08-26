@@ -21,6 +21,11 @@ PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := Mi 9T
 PRODUCT_MANUFACTURER := Xiaomi
 
+RISING_MAINTAINER := Rumais
+TARGET_ENABLE_BLUR := true
+WITH_GMS := true
+TARGET_HAS_UDFPS := true
+
 PRODUCT_BUILD_PROP_OVERRIDES += \
     BuildDesc="davinci-user 11 RKQ1.200826.002 V12.1.4.0.RFJMIXM release-keys" \
     BuildFingerprint=Xiaomi/davinci/davinci:11/RKQ1.200826.002/V12.1.4.0.RFJMIXM:user/release-keys \
