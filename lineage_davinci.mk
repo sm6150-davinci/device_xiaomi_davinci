@@ -25,11 +25,15 @@ RISING_MAINTAINER := Rumais
 TARGET_ENABLE_BLUR := true
 WITH_GMS := true
 TARGET_HAS_UDFPS := true
+TARGET_PREBUILT_LAWNCHAIR_LAUNCHER := true
+TARGET_DEFAULT_PIXEL_LAUNCHER := false
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
     BuildDesc="davinci-user 11 RKQ1.200826.002 V12.1.4.0.RFJMIXM release-keys" \
     BuildFingerprint=Xiaomi/davinci/davinci:11/RKQ1.200826.002/V12.1.4.0.RFJMIXM:user/release-keys \
     DeviceProduct=davinci \
-    SystemName=davinci
+    SystemName=davinci \
+    RisingChipset="Snapdragon 730" \
+    RisingMaintainer="Rumais"
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
